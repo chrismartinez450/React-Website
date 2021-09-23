@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>Christopher</h1>
+      <h1>Christopher Martinez</h1>
       <p>Bachelor's of Science in Computer Science</p>
       <p>Graduation Date: December 2021</p>
     </div>
