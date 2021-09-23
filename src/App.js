@@ -5,7 +5,10 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Spearfishing from './components/pages/Spearfishing';
 import Resume from './components/pages/Resume';
-import SignUp from './components/pages/SignUp';
+import Links from './components/pages/Links';
+import Octopusvideo from './components/pages/Octopusvideo';
+import Halibutpic from './components/pages/Halibutpic';
+import Corbinapic from './components/pages/Corbinapic';
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/spearfishing' component={Spearfishing} />
           <Route path='/resume' component={Resume} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/links' component={Links} />
+          <Route path='/octopusvideo' component={Octopusvideo} />
+          <Route path='/halibutpic' component={Halibutpic} />
+          <Route path='/corbinapic' component={Corbinapic} />
         </Switch>
       </Router>
     </>

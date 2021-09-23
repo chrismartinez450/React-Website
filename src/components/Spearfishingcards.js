@@ -12,17 +12,17 @@ function Spearfishingcards() {
                 <CardItem
                   src='images/halibut.jpg'
                   text='My first ever HALIBUT!'
-                  path='/'
+                  path='/halibutpic'
                 />
                 <CardItem
                   src='images/corbina.jpg'
                   text='My first ever CORBINA!'
-                  path='/'
+                  path='/corbinapic'
                 />
                 <CardItem
                   src='images/octopusStill.jpg'
                   text='An octopus interaction!(Video)'
-                  path='/'
+                  path='/octopusvideo'
                 />
               </ul>
             </div>
